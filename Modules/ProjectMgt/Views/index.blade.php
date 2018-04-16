@@ -1,3 +1,6 @@
-<?php
+@extends('ProjectMgt::app')
 
-echo trans('ProjectMgt::example.welcome');
+@section('content')
+
+{{ trans('ProjectMgt::example.welcome') }}
+@endsection
