@@ -1,0 +1,5 @@
+<?php
+
+/**
+ *	SoftComp Helper  
+ */

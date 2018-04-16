@@ -1,0 +1,5 @@
+<?php
+
+/**
+ *	Adminstrator Helper  
+ */
