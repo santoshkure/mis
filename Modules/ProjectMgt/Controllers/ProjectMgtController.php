@@ -15,7 +15,7 @@ class ProjectMgtController extends Controller
      */
     public function index()
     {
-        return view("ProjectMgt::index");
+        return view("ProjectMgt::dashboard");
     }
 
     /**
