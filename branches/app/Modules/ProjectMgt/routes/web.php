@@ -4,4 +4,14 @@ Route::group(['module' => 'ProjectMgt', 'middleware' => ['web', 'auth'], 'namesp
 
     Route::resource('pm', 'ProjectMgtController');
 
+
+    Route::get('projectInitiation', function () {
+        return view('ProjectMgt::projectInitiation');
+    })->name('projectInitiation');
+
+    Route::get('projectInitiation/create', function () {
+        return view('ProjectMgt::createProjectInitiation');
+    })->name('createProjectInitiation');
+
 });
+

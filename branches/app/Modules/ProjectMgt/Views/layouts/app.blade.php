@@ -15,7 +15,7 @@
     <link href="{{ asset('css/style.css') }}" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-<body class="fix-header fix-sidebar">
+<body class="fix-header fix-sidebar" data-gr-c-s-loaded="true">
 
 <div class="preloader">
     <svg class="circular" viewBox="25 25 50 50">
@@ -28,11 +28,15 @@
         @include('layouts.nav')
     </div>
 
-    @include('ProjectMgt::sidebar')
+    @include('ProjectMgt::layouts.navbar')
 
     <div class="page-wrapper">
         @yield('content')
     </div>
+</div>
+
+<div class="footer">
+    @include('layouts.footer')
 </div>
 
 
@@ -46,6 +50,14 @@
 <script src="{{ asset('js/sidebarmenu.js') }}"></script>
 <!--stickey kit -->
 <script src="{{ asset('js/sticky-kit.min.js') }}"></script>
+<!--table entire and search -->
+<script src="{{ asset('js/jquery.dataTables.min.js') }}"></script>
+<script src="{{ asset('js/dataTables.bootstrap.min.js') }}"></script>
+<!--charts -->
+<script src="{{ asset('js/chart/raphael-min.js') }}"></script>
+<script src="{{ asset('js/chart/morris.js') }}"></script>
+<script src="{{ asset('js/dashboard1-init.js') }}"></script>
+
 <!--Custom JavaScript -->
 
 <script src="{{ asset('js/custom.min.js') }}"></script>

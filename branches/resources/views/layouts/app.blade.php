@@ -15,11 +15,7 @@
     <link href="{{ asset('css/style.css') }}" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-<style>
-    .sidebartoggler{
-        display: none;
-    }
-</style>
+
 <body class="fix-header fix-sidebar">
 
     <div class="preloader">
@@ -38,7 +34,9 @@
         </div>
     </div>
 
-
+    <div class="footer">
+        @include('layouts.footer')
+    </div>
     <!-- script for design -->
     <script src="{{ asset('js/jquery.min.js') }} "></script>
     <!-- Bootstrap tether Core JavaScript -->
