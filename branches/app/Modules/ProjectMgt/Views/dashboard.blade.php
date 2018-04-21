@@ -3,7 +3,7 @@
 @section('content')
 <div class="row page-titles">
     <div class="col-md-5 align-self-center">
-        <h4 class="text-white">Dashboard</h4> </div>
+        <h5 class="text-white">Dashboard</h5> </div>
     <div class="col-md-7 align-self-center">
         <ol class="breadcrumb">
             <li class="breadcrumb-item text-white">{{--<a href="javascript:void(0)">--}}{{ trans('ProjectMgt::example.home') }}{{--</a>--}}</li>

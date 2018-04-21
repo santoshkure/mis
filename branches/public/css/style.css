@@ -2136,7 +2136,7 @@ textarea {
 }
 .card-header{
   margin: -20px;
-  margin-bottom: 0;
+  margin-bottom: 10px;
   padding: .5rem 1.25rem;
   background-color: rgb(51, 122, 183);
   color: #fff;
@@ -2282,6 +2282,18 @@ textarea {
 .customtab2 li a.nav-link:hover {
   background: #1976d2 none repeat scroll 0 0;
   color: #ffffff;
+}
+
+.card-header-menu{
+  list-style: none;
+  display: flex;
+  margin: 0;
+  float: right;
+}
+
+.card-header-menu a{
+  padding-left: 10px;
+  color:#fff;
 }
 .modal-dialog {
   margin: 30px auto;

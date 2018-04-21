@@ -21,7 +21,7 @@
                       <div class="card-body-icon">
                           <i class="fa fa-fw fa-wpforms color-primary"></i>
                       </div>
-                      <div class="ra-1">Project Management Module</div>
+                      <div class="ra-1">Project Management</div>
                   </a>
 
               </div>
@@ -34,7 +34,7 @@
                       <div class="card-body-icon">
                           <i class="fa fa-fw fa-building color-success"></i>
                       </div>
-                      <div class="ra-1">Civil Works Management Module</div>
+                      <div class="ra-1">Civil Works Management</div>
                   </a>
 
               </div>
@@ -46,7 +46,7 @@
                       <div class="card-body-icon">
                           <i class="fa fa-fw fa-comments color-warning"></i>
                       </div>
-                      <div class="ra-1">Soft Component Management Module</div>
+                      <div class="ra-1">Soft Component Management</div>
                   </a>
 
               </div>
@@ -58,7 +58,7 @@
                       <div class="card-body-icon">
                           <i class="fa fa-fw fa-question color-danger"></i>
                       </div>
-                      <div class="ra-1">Ancillary Package Management Module</div>
+                      <div class="ra-1">Ancillary Package Management</div>
                   </a>
 
               </div>
@@ -71,7 +71,7 @@
                       <div class="card-body-icon">
                           <i class="fa fa-fw fa-street-view color-warning"></i>
                       </div>
-                      <div class="ra-1">Consultancy Services Management Module</div>
+                      <div class="ra-1">Consultancy Services Management</div>
                   </a>
 
               </div>
@@ -83,7 +83,7 @@
                       <div class="card-body-icon">
                           <i class="fa fa-fw fa-map-marker color-danger"></i>
                       </div>
-                      <div class="ra-1">GIS Interface Module</div>
+                      <div class="ra-1">GIS Interface</div>
                   </a>
 
               </div>
@@ -96,7 +96,7 @@
                       <div class="card-body-icon">
                           <i class="fa fa-fw fa-book color-primary"></i>
                       </div>
-                      <div class="ra-1">Reference Registry Module</div>
+                      <div class="ra-1">Reference Registry</div>
                   </a>
 
               </div>
@@ -109,7 +109,7 @@
                       <div class="card-body-icon">
                           <i class="fa fa-fw fa-university color-success"></i>
                       </div>
-                      <div class="ra-1">Resources Center module</div>
+                      <div class="ra-1">Resources Center</div>
                   </a>
 
               </div>
