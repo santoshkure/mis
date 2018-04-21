@@ -28,7 +28,7 @@
         @include('layouts.nav')
     </div>
 
-    @include('ProjectMgt::layouts.navbar')
+    @include('ProjectMgt::layouts.sidebar')
 
     <div class="page-wrapper">
         @yield('content')

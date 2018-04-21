@@ -6,7 +6,7 @@
 
 <div class="row page-titles">
     <div class="col-md-5 align-self-center">
-        <h4 class="text-white">Planning and Investigation</h4> </div>
+        <h5 class="text-white">Planning and Investigation</h5> </div>
     <div class="col-md-7 align-self-center">
         <ol class="breadcrumb">
             <li class="breadcrumb-item text-white">{{--<a href="javascript:void(0)">--}}Planning and Investigation{{--</a>--}}</li>
@@ -17,12 +17,25 @@
 
 <div class="container-fluid">
     <div class="card">
+
+        <div class="card-header">
+
+            <ul class="card-header-menu ml-auto">
+                <li>
+                    <a href="#"><i class="fa fa-pencil-square-o"></i></a>
+                </li>
+                <li>
+                    <a href="#"><i class="fa fa-file-pdf-o"></i></a>
+                </li>
+            </ul>
+
+        </div>
         <form class="card-body">
-            <div class="form-right text-right">
+  {{--          <div class="form-right text-right">
                 <a class="btn btn-primary" href="{{ route('createProjectInitiation') }}">
                     <i class="fa fa-fw fa-plus"></i>Create
                 </a>
-            </div>
+            </div>--}}
 
             <div class="form-inline row">
                 <div class="form-group col-md-6">
@@ -37,7 +50,7 @@
 
             <div class="form-group row mb-0">
                 <div class="col-md-8 offset-md-4">
-                <button type="submit" class="btn btn-primary">Search</button>
+                <button type="submit" class="btn btn-primary"> Search</button>
                 <button type="reset" class="btn btn-primary">Cancel</button>
                 </div>
             </div>
