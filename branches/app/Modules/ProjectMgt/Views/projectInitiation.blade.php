@@ -22,7 +22,7 @@
 
             <ul class="card-header-menu ml-auto">
                 <li>
-                    <a href="#"><i class="fa fa-pencil-square-o"></i></a>
+                    <a href="{{ route('createProjectInitiation') }}"><i class="fa fa-pencil-square-o"></i></a>
                 </li>
                 <li>
                     <a href="#"><i class="fa fa-file-pdf-o"></i></a>
